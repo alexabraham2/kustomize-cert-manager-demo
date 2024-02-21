@@ -4,4 +4,4 @@ kind: Kustomization
 bases:
   - ../../bases/ingress-nginx
   - ../../bases/cert-manager
-  #- ../../overlays/helloweb-cert-self-signed
+  - ../../overlays/helloweb-cert-self-signed
